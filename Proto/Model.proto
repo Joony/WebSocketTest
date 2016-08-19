@@ -1,0 +1,27 @@
+message User {
+ required string username = 1;
+ required int32 userid = 2;
+}
+
+message Message {
+  required int32 userid = 1;
+  required string message = 2;
+}
+
+message Messages {
+ repeated Message messages = 1;
+}
+
+message LoginResponse {
+  required string token = 1;
+}
+
+message Users {
+ repeated User users = 1;
+}
+
+message Room {
+ repeated User users = 1;
+ optional string name = 2;
+ optional string image = 3;
+}

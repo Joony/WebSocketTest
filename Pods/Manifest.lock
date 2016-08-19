@@ -1,0 +1,15 @@
+PODS:
+  - ProtocolBuffers-Swift (2.4.3)
+  - Starscream (1.1.3)
+
+DEPENDENCIES:
+  - ProtocolBuffers-Swift
+  - Starscream (~> 1.1.3)
+
+SPEC CHECKSUMS:
+  ProtocolBuffers-Swift: afbdde78be3c6af8a610d2c257d6bc88e8c7c5d4
+  Starscream: d662732354b40dd19ed1ece3e3c44c80b536b83c
+
+PODFILE CHECKSUM: bf908790427216f070af8c55227c201c3852d7f7
+
+COCOAPODS: 1.0.0
